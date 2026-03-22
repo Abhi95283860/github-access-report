@@ -38,8 +38,6 @@ http://localhost:8080/api/github/access-report?org=github
 
 
 
-
-```md
 ## 📊 Sample Response
 
 ```json
@@ -52,6 +50,7 @@ http://localhost:8080/api/github/access-report?org=github
     "username": "user2",
     "repositories": ["repo3"]
   }
+]
 🔐 Configuration
 Before running the project, add your GitHub token in:
 src/main/resources/application.properties
