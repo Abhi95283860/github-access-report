@@ -51,20 +51,17 @@ http://localhost:8080/api/github/access-report?org=github
     "repositories": ["repo3"]
   }
 ]
-
-
-
-
 🔐 Configuration
+
 Before running the project, add your GitHub token in:
+
 src/main/resources/application.properties
 
 github.token=YOUR_TOKEN
-
 ▶️ How to Run
-1)Clone the repository
-2)Open project in VS Code / IntelliJ
-3)Add your GitHub token
-4)Run the application:
-    mvn spring-boot:run (on terminal)
-5)Open browser and test API
+Clone the repository
+Open project in VS Code / IntelliJ
+Add your GitHub token
+Run the application:
+mvn spring-boot:run
+Open browser and test API
