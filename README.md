@@ -37,6 +37,7 @@ It fetches repositories of an organization and maps users (contributors) to the 
 http://localhost:8080/api/github/access-report?org=github
 
 
+---
 
 ## 📊 Sample Response
 
@@ -51,35 +52,24 @@ http://localhost:8080/api/github/access-report?org=github
     "repositories": ["repo3"]
   }
 ]
+
 🔐 Configuration
 
 Before running the project, add your GitHub token in:
 
 src/main/resources/application.properties
-
 github.token=YOUR_TOKEN
+
+
 ▶️ How to Run
-Clone the repository
-Open project in VS Code / IntelliJ
-Add your GitHub token
-Run the application:
-mvn spring-boot:run
-Open browser and test API
+1)Clone the repository
+2)Open project in VS Code / IntelliJ
+3)Add your GitHub token
+4)Run the application:
+  mvn spring-boot:run
+5)Open browser and test API
+
+'''
 
 ---
 
-# 🔥 WHAT YOU MUST DO
-
-1. Open `README.md`  
-2. **Delete your old broken section**  
-3. Paste this above code  
-4. Save  
-
----
-
-# 🚀 Then run
-
-```bash
-git add README.md
-git commit -m "Fixed README formatting"
-git push
