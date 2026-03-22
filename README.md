@@ -65,3 +65,21 @@ Add your GitHub token
 Run the application:
 mvn spring-boot:run
 Open browser and test API
+
+---
+
+# 🔥 WHAT YOU MUST DO
+
+1. Open `README.md`  
+2. **Delete your old broken section**  
+3. Paste this above code  
+4. Save  
+
+---
+
+# 🚀 Then run
+
+```bash
+git add README.md
+git commit -m "Fixed README formatting"
+git push
